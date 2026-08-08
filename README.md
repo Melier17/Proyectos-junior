@@ -1,2 +1,2 @@
-# Proyectos-junior
-Proyectos para practicar
+# proyectos-junior
+proyectos desde cero para practicar 
