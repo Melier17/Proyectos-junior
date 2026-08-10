@@ -1,0 +1,69 @@
+:root{
+  --azul: #0A2540;
+  --dorado: #C9A227;
+  --blanco: #fff;
+  --gris: #f4f4f4;
+}
+
+*{margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif;}
+body{background: var(--blanco); color: #333;}
+
+header{background: var(--azul); padding: 20px; position: sticky; top:0;}
+nav{display:flex; justify-content:space-between; align-items:center; max-width:1100px; margin:auto;}
+.logo{color:var(--blanco); font-size:1.5rem;}
+.logo span{color:var(--dorado);}
+nav ul{list-style:none; display:flex; gap:20px;}
+nav a{color:var(--blanco); text-decoration:none; font-weight:500;}
+nav a:hover{color:var(--dorado);}
+
+.hero{background: linear-gradient(rgba(10,37,64,0.85), rgba(10,37,64,0.85)), url('https://via.placeholder.com/1200x500'); background-size:cover; color:var(--blanco); text-align:center; padding:120px 20px;}
+.hero h1{font-size:2.5rem; margin-bottom:15px;}
+.hero span{color:var(--dorado);}
+.btn{display:inline-block; background:var(--dorado); color:var(--azul); padding:12px 25px; border-radius:5px; text-decoration:none; font-weight:bold; margin-top:15px;}
+.btn:hover{opacity:0.9;}
+
+section{padding:60px 20px; max-width:1100px; margin:auto; text-align:center;}
+h2{color:var(--azul); margin-bottom:40px; font-size:2rem;}
+.grid{display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px;}
+.card{background:var(--gris); padding:25px; border-radius:10px; border-left:4px solid var(--dorado);}
+.abogado img{border-radius:50%; margin-bottom:10px;}
+
+.contacto form{display:flex; flex-direction:column; gap:15px; max-width:500px; margin:auto;}
+.contacto input, .contacto textarea{padding:12px; border:1px solid #ccc; border-radius:5px;}
+
+footer{background:var(--azul); color:var(--blanco); text-align:center; padding:20px; margin-top:40px;}
+:root{
+  --azul: #0A2540;
+  --dorado: #C9A227;
+  --blanco: #fff;
+  --gris: #f4f4f4;
+}
+
+*{margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif;}
+body{background: var(--blanco); color: #333;}
+
+header{background: var(--azul); padding: 20px; position: sticky; top:0; border-bottom: 3px solid var(--dorado);}
+nav{display:flex; justify-content:space-between; align-items:center; max-width:1100px; margin:auto;}
+.logo{color:var(--blanco); font-size:1.5rem;}
+.logo span{color:var(--dorado);} /* AQUI ESTA EL DORADO */
+nav ul{list-style:none; display:flex; gap:20px;}
+nav a{color:var(--blanco); text-decoration:none; font-weight:500;}
+nav a:hover{color:var(--dorado); border-bottom: 2px solid var(--dorado);} /* HOVER DORADO */
+
+.hero{background: linear-gradient(rgba(10,37,64,0.9), rgba(10,37,64,0.9)), url('https://via.placeholder.com/1200x500'); background-size:cover; color:var(--blanco); text-align:center; padding:120px 20px; border-bottom: 5px solid var(--dorado);}
+.hero h1{font-size:2.5rem; margin-bottom:15px;}
+.hero span{color:var(--dorado); font-weight: bold;} /* TEXTO DORADO */
+.btn{display:inline-block; background:var(--dorado); color:var(--azul); padding:14px 30px; border-radius:8px; text-decoration:none; font-weight:bold; margin-top:15px; border: 2px solid var(--dorado);}
+.btn:hover{background: transparent; color: var(--dorado); border: 2px solid var(--dorado);} /* BOTON INVERTIDO */
+
+section{padding:60px 20px; max-width:1100px; margin:auto; text-align:center;}
+h2{color:var(--azul); margin-bottom:40px; font-size:2rem; border-bottom: 3px solid var(--dorado); display:inline-block; padding-bottom:10px;} /* TITULOS CON LINEA DORADA */
+.grid{display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px;}
+.card{background:var(--gris); padding:25px; border-radius:10px; border-left:5px solid var(--dorado); box-shadow: 0 4px 8px rgba(201,162,39,0.2);} /* BORDE DORADO */
+.abogado img{border-radius:50%; margin-bottom:10px; border: 3px solid var(--dorado);} /* FOTOS CON BORDE DORADO */
+
+.contacto form{display:flex; flex-direction:column; gap:15px; max-width:500px; margin:auto;}
+.contacto input, .contacto textarea{padding:12px; border:2px solid #ccc; border-radius:5px;}
+.contacto input:focus, .contacto textarea:focus{border:2px solid var(--dorado); outline:none;} /* INPUTS DORADOS AL DAR CLICK */
+
+footer{background:var(--azul); color:var(--blanco); text-align:center; padding:20px; margin-top:40px; border-top: 3px solid var(--dorado);}
